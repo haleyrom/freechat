@@ -57,7 +57,7 @@ class MainController {
             }
         })
 
-        this.window.loadURL('https://wx.qq.com/?&lang=zh_CN')
+        this.window.loadURL('https://wx2.qq.com/?&lang=zh_CN&target=t')
 
         this.window.webContents.on('dom-ready', () => {
             this.window.webContents.insertCSS(CssInjector.login)
